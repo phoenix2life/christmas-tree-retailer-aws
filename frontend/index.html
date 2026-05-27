@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Christmas Tree Retailer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">Seasonal Local Retailer</p>
+      <h1>Christmas Tree Retailer</h1>
+      <p class="subtitle">Browse trees, place an order, and view your order details.</p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel">
+      <div class="section-heading">
+        <h2>Available Trees</h2>
+        <button id="refreshProductsBtn" class="secondary">Refresh</button>
+      </div>
+      <div id="products" class="cards"></div>
+    </section>
+
+    <section class="panel" id="detailsPanel">
+      <h2>Product Details</h2>
+      <div id="productDetails" class="muted">Select a tree to view details.</div>
+    </section>
+
+    <section class="panel">
+      <h2>Submit Order</h2>
+      <form id="orderForm" class="form">
+        <label>
+          Selected Product ID
+          <input id="productId" name="productId" placeholder="tree-001" required />
+        </label>
+        <label>
+          Quantity
+          <input id="quantity" name="quantity" type="number" min="1" value="1" required />
+        </label>
+        <label>
+          Customer Name
+          <input id="customerName" name="customerName" placeholder="Jane Doe" required />
+        </label>
+        <label>
+          Customer Email
+          <input id="customerEmail" name="customerEmail" type="email" placeholder="jane@example.com" required />
+        </label>
+        <label>
+          Customer Phone
+          <input id="customerPhone" name="customerPhone" placeholder="555-123-4567" />
+        </label>
+        <button type="submit">Submit Order</button>
+      </form>
+      <div id="orderResult" class="result"></div>
+    </section>
+
+    <section class="panel">
+      <div class="section-heading">
+        <h2>Order Lookup</h2>
+        <button id="loadOrdersBtn" class="secondary">List Orders</button>
+      </div>
+      <div class="lookup">
+        <input id="lookupOrderId" placeholder="Enter order ID" />
+        <button id="lookupOrderBtn" class="secondary">View Order</button>
+      </div>
+      <div id="orderDetails" class="result"></div>
+      <div id="orders" class="cards compact"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Prototype scope: no payments, no authentication, no admin workflow.</p>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

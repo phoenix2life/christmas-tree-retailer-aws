@@ -1,0 +1,15 @@
+[
+  {
+    "orderId": "order-2026-0001",
+    "customerName": "Jane Doe",
+    "customerEmail": "jane@example.com",
+    "customerPhone": "555-123-4567",
+    "productId": "tree-001",
+    "productName": "Fraser Fir",
+    "quantity": 1,
+    "unitPrice": 89.99,
+    "estimatedTotal": 89.99,
+    "status": "Submitted",
+    "createdAt": "2026-05-20T19:15:00Z"
+  }
+]

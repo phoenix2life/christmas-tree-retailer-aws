@@ -1,0 +1,42 @@
+[
+  {
+    "productId": "tree-001",
+    "name": "Fraser Fir",
+    "type": "Fraser Fir",
+    "size": "7 ft",
+    "price": 89.99,
+    "description": "Fresh-cut Fraser Fir with strong branches, soft needles, and classic Christmas fragrance.",
+    "availableQuantity": 12,
+    "imageUrl": "images/fraser-fir.svg"
+  },
+  {
+    "productId": "tree-002",
+    "name": "Douglas Fir",
+    "type": "Douglas Fir",
+    "size": "6 ft",
+    "price": 69.99,
+    "description": "Full-bodied Douglas Fir with dense green foliage and a traditional holiday look.",
+    "availableQuantity": 18,
+    "imageUrl": "images/douglas-fir.svg"
+  },
+  {
+    "productId": "tree-003",
+    "name": "Balsam Fir",
+    "type": "Balsam Fir",
+    "size": "7.5 ft",
+    "price": 99.99,
+    "description": "Premium Balsam Fir with excellent needle retention and a rich evergreen scent.",
+    "availableQuantity": 8,
+    "imageUrl": "images/balsam-fir.svg"
+  },
+  {
+    "productId": "tree-004",
+    "name": "Blue Spruce",
+    "type": "Blue Spruce",
+    "size": "5.5 ft",
+    "price": 59.99,
+    "description": "Compact Blue Spruce with sturdy branches and a distinctive blue-green color.",
+    "availableQuantity": 10,
+    "imageUrl": "images/blue-spruce.svg"
+  }
+]
